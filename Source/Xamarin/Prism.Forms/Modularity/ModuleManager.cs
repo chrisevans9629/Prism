@@ -67,6 +67,8 @@ namespace Prism.Modularity
             LoadModules(modulesToLoad);
         }
 
+        public event EventHandler<ModuleDownloadProgressChangedEventArgs> ModuleDownloadProgressChanged;
+
         /// <summary>
         /// Loads the <see cref="IModule"/>'s with <see cref="InitializationMode.WhenAvailable"/>
         /// </summary>

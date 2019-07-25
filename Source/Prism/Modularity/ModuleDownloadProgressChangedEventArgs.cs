@@ -1,4 +1,4 @@
-#if NET45 || NETCOREAPP3_0
+//#if NET45 || NETCOREAPP3_0
 
 using System;
 using System.ComponentModel;
@@ -58,4 +58,4 @@ namespace Prism.Modularity
         }
     }
 }
-#endif
+//#endif
